@@ -8,7 +8,7 @@ set(LIBRARY_OUTPUT_PATH    ${CMAKE_BINARY_DIR}/lib)
 
 include_directories("${PROJECT_SOURCE_DIR}")
 
-add_executable(Hellweg2dCmd ${PROJECT_SOURCE_DIR}/hellweg2d.cpp)
+add_executable(hellweg2d-cmd ${PROJECT_SOURCE_DIR}/hellweg2d.cpp)
 
 include_directories (kernel)
 add_subdirectory (kernel) 

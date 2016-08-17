@@ -8,11 +8,11 @@
 ## Building
 
 ```
-> cd kernel
-kernel> cmake -H. -Bbuild
-kernel> cmake --build build -- -j3
+> ./hellweg2d-cmd/build.sh
 ```
 
 ## Execute
 
-kernel> ./bin/hellweg2d
+```
+kernel> .hellweg2d-cmd/bin/hellweg2d-cmd`
+```
